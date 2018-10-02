@@ -72,4 +72,10 @@ class AlatController extends Controller
 
         return redirect('/alat');
     }
+    
+    public function substractNumber($number1, $number2) {
+        $res = $number1 - $number2;
+        
+        return $res;
+    }
 }
